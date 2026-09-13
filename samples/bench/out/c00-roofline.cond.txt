@@ -1,0 +1,1 @@
+# bench/c00_roofline.py | float32, 밀도는 FLOP/byte, 처리량은 GFLOP/s, 대역폭은 8 스레드 복사 | 반복 7회 중앙값 | 2026-09-09

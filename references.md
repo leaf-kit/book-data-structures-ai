@@ -1,0 +1,71 @@
+# 참고문헌
+
+전부 저자, 연도, 제목, 게재처를 확인한 것이다. 확인 날짜는 책의 참고문헌에 있다.
+
+- Williams, Samuel, Waterman, Andrew, Patterson, David (2009). Roofline: An Insightful Visual Performance Model for Multicore Architectures. Communications of the ACM.
+- Aggarwal, Alok, Vitter, Jeffrey Scott (1988). The Input/Output Complexity of Sorting and Related Problems. Communications of the ACM.
+- Frigo, Matteo, Leiserson, Charles E., Prokop, Harald, Ramachandran, Sridhar (1999). Cache-Oblivious Algorithms. Proceedings of the 40th Annual Symposium on Foundations of Computer Science (FOCS).
+- Hennessy, John L., Patterson, David A. (2019). A New Golden Age for Computer Architecture. Communications of the ACM.
+- Johnson, Jeff, Douze, Matthijs, J\'egou, Herv\'e (2019). Billion-Scale Similarity Search with GPUs. IEEE Transactions on Big Data.
+- Harris, Charles R., Millman, K. Jarrod, van der Walt, St\'efan J., Gommers, Ralf, Virtanen, Pauli, Cournapeau, David, Wieser, Eric, Taylor, Julian, Berg, Sebastian, Smith, Nathaniel J., others (2020). Array Programming with NumPy. Nature.
+- Kwon, Woosuk, Li, Zhuohan, Zhuang, Siyuan, Sheng, Ying, Zheng, Lianmin, Yu, Cody Hao, Gonzalez, Joseph E., Zhang, Hao, Stoica, Ion (2023). Efficient Memory Management for Large Language Model Serving with PagedAttention. Proceedings of the 29th ACM Symposium on Operating Systems Principles (SOSP).
+- Yu, Gyeong-In, Jeong, Joo Seong, Kim, Geon-Woo, Kim, Soojeong, Chun, Byung-Gon (2022). Orca: A Distributed Serving System for Transformer-Based Generative Models. 16th USENIX Symposium on Operating Systems Design and Implementation (OSDI).
+- Drepper, Ulrich (2007). What Every Programmer Should Know About Memory. .
+- Tarjan, Robert Endre (1985). Amortized Computational Complexity. SIAM Journal on Algebraic and Discrete Methods.
+- Denning, Peter J. (1970). Virtual Memory. ACM Computing Surveys.
+- Pope, Reiner, Douglas, Sholto, Chowdhery, Aakanksha, Devlin, Jacob, Bradbury, James, Heek, Jonathan, Xiao, Kefan, Agrawal, Shivani, Dean, Jeff (2023). Efficiently Scaling Transformer Inference. Proceedings of Machine Learning and Systems (MLSys).
+- Mishra, Asit, Latorre, Jorge Albericio, Pool, Jeff, Stosic, Darko, Stosic, Dusan, Venkatesh, Ganesh, Yu, Chong, Micikevicius, Paulius (2021). Accelerating Sparse Deep Neural Networks. arXiv 2104.08378.
+- Dettmers, Tim, Pagnoni, Artidoro, Holtzman, Ari, Zettlemoyer, Luke (2023). QLoRA: Efficient Finetuning of Quantized LLMs. Advances in Neural Information Processing Systems 36 (NeurIPS).
+- Frantar, Elias, Ashkboos, Saleh, Hoefler, Torsten, Alistarh, Dan (2023). GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers. International Conference on Learning Representations (ICLR).
+- Fedus, William, Zoph, Barret, Shazeer, Noam (2022). Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity. Journal of Machine Learning Research.
+- Bonwick, Jeff (1994). The Slab Allocator: An Object-Caching Kernel Memory Allocator. Proceedings of the USENIX Summer 1994 Technical Conference.
+- Baydin, At\il\im G\"une\cs, Pearlmutter, Barak A., Radul, Alexey Andreyevich, Siskind, Jeffrey Mark (2018). Automatic Differentiation in Machine Learning: a Survey. Journal of Machine Learning Research.
+- Wengert, R. E. (1964). A Simple Automatic Derivative Evaluation Program. Communications of the ACM.
+- Weinberger, Kilian, Dasgupta, Anirban, Langford, John, Smola, Alex, Attenberg, Josh (2009). Feature Hashing for Large Scale Multitask Learning. Proceedings of the 26th International Conference on Machine Learning (ICML).
+- Pagh, Rasmus, Rodler, Flemming Friche (2004). Cuckoo Hashing. Journal of Algorithms.
+- Carter, J. Lawrence, Wegman, Mark N. (1979). Universal Classes of Hash Functions. Journal of Computer and System Sciences.
+- Kudo, Taku, Richardson, John (2018). SentencePiece: A Simple and Language Independent Subword Tokenizer and Detokenizer for Neural Text Processing. Proceedings of EMNLP 2018: System Demonstrations.
+- Bloom, Burton H. (1970). Space/Time Trade-offs in Hash Coding with Allowable Errors. Communications of the ACM.
+- Cormode, Graham, Muthukrishnan, S. (2005). An Improved Data Stream Summary: The Count-Min Sketch and its Applications. Journal of Algorithms.
+- Broder, Andrei Z. (1997). On the Resemblance and Containment of Documents. Proceedings of Compression and Complexity of Sequences (SEQUENCES 1997).
+- Indyk, Piotr, Motwani, Rajeev (1998). Approximate Nearest Neighbors: Towards Removing the Curse of Dimensionality. Proceedings of the 30th Annual ACM Symposium on Theory of Computing (STOC).
+- Lee, Katherine, Ippolito, Daphne, Nystrom, Andrew, Zhang, Chiyuan, Eck, Douglas, Callison-Burch, Chris, Carlini, Nicholas (2022). Deduplicating Training Data Makes Language Models Better. Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL).
+- Flajolet, Philippe, Fusy, \'Eric, Gandouet, Olivier, Meunier, Fr\'ed\'eric (2007). HyperLogLog: The Analysis of a Near-Optimal Cardinality Estimation Algorithm. Proceedings of the 2007 International Conference on Analysis of Algorithms (AofA).
+- Bayer, Rudolf, McCreight, Edward M. (1972). Organization and Maintenance of Large Ordered Indexes. Acta Informatica.
+- Kraska, Tim, Beutel, Alex, Chi, Ed H., Dean, Jeffrey, Polyzotis, Neoklis (2018). The Case for Learned Index Structures. Proceedings of the 2018 International Conference on Management of Data (SIGMOD).
+- Ferragina, Paolo, Vinciguerra, Giorgio (2020). The PGM-index: A Fully-Dynamic Compressed Learned Index with Provable Worst-Case Bounds. Proceedings of the VLDB Endowment.
+- Khuong, Paul-Virak, Morin, Pat (2017). Array Layouts for Comparison-Based Searching. ACM Journal of Experimental Algorithmics.
+- Fredkin, Edward (1960). Trie Memory. Communications of the ACM.
+- Sennrich, Rico, Haddow, Barry, Birch, Alexandra (2016). Neural Machine Translation of Rare Words with Subword Units. Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers).
+- Zheng, Lianmin, Yin, Liangsheng, Xie, Zhiqiang, Sun, Chuyue, Huang, Jeff, Yu, Cody Hao, Cao, Shiyi, Kozyrakis, Christos, Stoica, Ion, Gonzalez, Joseph E., Barrett, Clark, Sheng, Ying (2024). SGLang: Efficient Execution of Structured Language Model Programs. Advances in Neural Information Processing Systems 37 (NeurIPS).
+- Aho, Alfred V., Corasick, Margaret J. (1975). Efficient String Matching: An Aid to Bibliographic Search. Communications of the ACM.
+- Willard, Brandon T., Louf, R\'emi (2023). Efficient Guided Generation for Large Language Models. arXiv 2307.09702.
+- Morrison, Donald R. (1968). PATRICIA: Practical Algorithm To Retrieve Information Coded in Alphanumeric. Journal of the ACM.
+- Williams, J. W. J. (1964). Algorithm 232: Heapsort. Communications of the ACM.
+- Walker, Alastair J. (1977). An Efficient Method for Generating Discrete Random Variables with General Distributions. ACM Transactions on Mathematical Software.
+- Vose, Michael D. (1991). A Linear Algorithm for Generating Random Numbers with a Given Distribution. IEEE Transactions on Software Engineering.
+- Holtzman, Ari, Buys, Jan, Du, Li, Forbes, Maxwell, Choi, Yejin (2020). The Curious Case of Neural Text Degeneration. International Conference on Learning Representations (ICLR).
+- Kahn, Arthur B. (1962). Topological Sorting of Large Networks. Communications of the ACM.
+- Tarjan, Robert E. (1972). Depth-First Search and Linear Graph Algorithms. SIAM Journal on Computing.
+- Chen, Tianqi, Moreau, Thierry, Jiang, Ziheng, Zheng, Lianmin, Yan, Eddie, Shen, Haichen, Cowan, Meghan, Wang, Leyuan, Hu, Yuwei, Ceze, Luis, Guestrin, Carlos, Krishnamurthy, Arvind (2018). TVM: An Automated End-to-End Optimizing Compiler for Deep Learning. 13th USENIX Symposium on Operating Systems Design and Implementation (OSDI).
+- Bentley, Jon Louis (1975). Multidimensional Binary Search Trees Used for Associative Searching. Communications of the ACM.
+- Weber, Roger, Schek, Hans-J\"org, Blott, Stephen (1998). A Quantitative Analysis and Performance Study for Similarity-Search Methods in High-Dimensional Spaces. Proceedings of the 24th International Conference on Very Large Data Bases (VLDB).
+- Malkov, Yury A., Yashunin, Dmitry A. (2020). Efficient and Robust Approximate Nearest Neighbor Search Using Hierarchical Navigable Small World Graphs. IEEE Transactions on Pattern Analysis and Machine Intelligence.
+- Subramanya, Suhas Jayaram, Devvrit, Fnu, Kadekodi, Rohan, Krishnaswamy, Ravishankar, Simhadri, Harsha Vardhan (2019). DiskANN: Fast Accurate Billion-point Nearest Neighbor Search on a Single Node. Advances in Neural Information Processing Systems 32 (NeurIPS).
+- Pugh, William (1990). Skip Lists: A Probabilistic Alternative to Balanced Trees. Communications of the ACM.
+- J\'egou, Herv\'e, Douze, Matthijs, Schmid, Cordelia (2011). Product Quantization for Nearest Neighbor Search. IEEE Transactions on Pattern Analysis and Machine Intelligence.
+- Guo, Ruiqi, Sun, Philip, Lindgren, Erik, Geng, Quan, Simcha, David, Chern, Felix, Kumar, Sanjiv (2020). Accelerating Large-Scale Inference with Anisotropic Vector Quantization. Proceedings of the 37th International Conference on Machine Learning (ICML), PMLR 119.
+- Lloyd, Stuart P. (1982). Least Squares Quantization in PCM. IEEE Transactions on Information Theory.
+- Manber, Udi, Myers, Gene (1993). Suffix Arrays: A New Method for On-Line String Searches. SIAM Journal on Computing.
+- Liu, Jiacheng, Min, Sewon, Zettlemoyer, Luke, Choi, Yejin, Hajishirzi, Hannaneh (2024). Infini-gram: Scaling Unbounded $n$-gram Language Models to a Trillion Tokens. First Conference on Language Modeling (COLM).
+- Vaswani, Ashish, Shazeer, Noam, Parmar, Niki, Uszkoreit, Jakob, Jones, Llion, Gomez, Aidan N., Kaiser, \Lukasz, Polosukhin, Illia (2017). Attention Is All You Need. Advances in Neural Information Processing Systems 30 (NeurIPS).
+- Dao, Tri, Fu, Daniel Y., Ermon, Stefano, Rudra, Atri, R\'e, Christopher (2022). FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness. Advances in Neural Information Processing Systems 35 (NeurIPS).
+- Milakov, Maxim, Gimelshein, Natalia (2018). Online Normalizer Calculation for Softmax. arXiv 1805.02867.
+- Zhang, Zhenyu, Sheng, Ying, Zhou, Tianyi, Chen, Tianlong, Zheng, Lianmin, Cai, Ruisi, Song, Zhao, Tian, Yuandong, R\'e, Christopher, Barrett, Clark, Wang, Zhangyang, Chen, Beidi (2023). H2O: Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models. Advances in Neural Information Processing Systems 36 (NeurIPS).
+- Patarasuk, Pitch, Yuan, Xin (2009). Bandwidth Optimal All-reduce Algorithms for Clusters of Workstations. Journal of Parallel and Distributed Computing.
+- Merkle, Ralph C. (1987). A Digital Signature Based on a Conventional Encryption Function. Advances in Cryptology (CRYPTO '87), LNCS 293.
+- Durstenfeld, Richard (1964). Algorithm 235: Random Permutation. Communications of the ACM.
+- Stonebraker, Michael, Abadi, Daniel J., Batkin, Adam, Chen, Xuedong, Cherniack, Mitch, Ferreira, Miguel, Lau, Edmond, Lin, Amerson, Madden, Samuel, O'Neil, Elizabeth, O'Neil, Patrick, Rasin, Alex, Tran, Nga, Zdonik, Stanley (2005). C-Store: A Column-oriented DBMS. Proceedings of the 31st International Conference on Very Large Data Bases (VLDB).
+- Xiao, Guangxuan, Tian, Yuandong, Chen, Beidi, Han, Song, Lewis, Mike (2024). Efficient Streaming Language Models with Attention Sinks. International Conference on Learning Representations (ICLR).
+- Gu, Albert, Dao, Tri (2023). Mamba: Linear-Time Sequence Modeling with Selective State Spaces. arXiv 2312.00752.
+- Bentley, Jon (2000). Programming Pearls. Addison-Wesley.

@@ -1,0 +1,1 @@
+# bench/c03_structured.py | float32 4096x4096, 0 이 아닌 원소 절반. 2:4 값은 float16 | 반복 7회 중앙값 | 2026-09-09

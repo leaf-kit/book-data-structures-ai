@@ -1,0 +1,70 @@
+name: 뷰어 페이지 배포
+
+# 본문 PDF 는 저장소에 두지 않는다. 릴리즈에 붙인 것을 받아 페이지에만 싣는다.
+
+on:
+  release:
+    types: [published]
+  push:
+    branches: [main]
+    paths:
+      - site/**
+      - images/cover.png
+      - .github/workflows/pages.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  PDFJS_VERSION: 6.3.289
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 최신 릴리즈의 본문을 받는다
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p _site
+          gh release download --repo "$GITHUB_REPOSITORY" --pattern '*.pdf' --output _site/book.pdf --clobber
+          echo "TAG=$(gh release view --repo "$GITHUB_REPOSITORY" --json tagName --jq .tagName)" >> "$GITHUB_ENV"
+
+      - name: 뷰어를 받아 소스맵과 예제 파일을 걷어낸다
+        run: |
+          curl -sSLf -o /tmp/pdfjs.zip \
+            "https://github.com/mozilla/pdf.js/releases/download/v${PDFJS_VERSION}/pdfjs-${PDFJS_VERSION}-dist.zip"
+          mkdir -p _site/pdfjs
+          unzip -q /tmp/pdfjs.zip -d _site/pdfjs
+          find _site/pdfjs -name '*.map' -delete
+          rm -f _site/pdfjs/web/compressed.tracemonkey-pldi-09.pdf
+
+      - name: 표지와 뷰어 페이지를 얹는다
+        run: |
+          sed "s|{{TAG}}|${TAG}|g" site/index.html > _site/index.html
+          cp images/cover.png _site/cover.png
+          du -sh _site
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

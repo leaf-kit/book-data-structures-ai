@@ -1,0 +1,11 @@
+[project]
+name = "dsai"
+version = "0.1.0"
+description = "AI 시대에 다시 쓰는 자료 구조. 책의 모든 코드와 측정은 여기서 온다."
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "exercises"]
+pythonpath = ["."]
+addopts = "-q"

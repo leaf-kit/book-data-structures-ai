@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 시대에 다시 쓰는 자료 구조</title>
+<meta name="author" content="리프 메타 (leaf meta)">
+<meta name="description" content="전통 자료 구조를 디딤돌 삼아 읽는 현대 AI 시스템의 자료 구조. 본문 507쪽, 67개 절. 무료로 읽고 배포할 수 있다.">
+<meta property="og:type" content="book">
+<meta property="og:title" content="AI 시대에 다시 쓰는 자료 구조">
+<meta property="og:description" content="전통 자료 구조를 디딤돌 삼아 읽는 현대 AI 시스템의 자료 구조. 본문 507쪽, 67개 절.">
+<meta property="og:image" content="cover.png">
+<link rel="icon" href="cover.png">
+<style>
+  :root {
+    --ink: #16191d;
+    --paper: #f5f6f8;
+    --dark: #1b1d24;
+    --dark2: #24262f;
+    --line: #343744;
+    --accent: #6cc7d8;
+    --mute: #9aa0ac;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background: var(--dark);
+    color: var(--paper);
+    font-family: "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", system-ui, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  header {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 12px 20px;
+    background: var(--dark2);
+    border-bottom: 1px solid var(--line);
+  }
+  header img {
+    width: 42px;
+    height: auto;
+    border-radius: 3px;
+    flex: 0 0 auto;
+  }
+  .titles { min-width: 0; flex: 1 1 auto; }
+  .titles h1 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .titles p {
+    margin: 3px 0 0;
+    font-size: 12px;
+    color: var(--mute);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  nav { display: flex; gap: 8px; flex: 0 0 auto; }
+  nav a {
+    display: inline-block;
+    padding: 7px 13px;
+    border: 1px solid var(--line);
+    border-radius: 5px;
+    color: var(--paper);
+    font-size: 13px;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  nav a:hover { border-color: var(--accent); color: var(--accent); }
+  nav a.primary { background: var(--accent); border-color: var(--accent); color: #10222a; font-weight: 700; }
+  nav a.primary:hover { background: #8ad6e3; color: #10222a; }
+  main { flex: 1 1 auto; min-height: 0; }
+  iframe { display: block; width: 100%; height: 100%; border: 0; background: var(--paper); }
+  footer {
+    flex: 0 0 auto;
+    padding: 9px 20px;
+    background: var(--dark2);
+    border-top: 1px solid var(--line);
+    font-size: 12px;
+    color: var(--mute);
+  }
+  footer a { color: var(--mute); }
+  @media (max-width: 720px) {
+    header { gap: 10px; padding: 8px 11px; }
+    header img { display: none; }
+    .titles h1 { font-size: 15px; }
+    .titles p { display: none; }
+    nav a { padding: 6px 9px; font-size: 12px; }
+    footer { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <img src="cover.png" alt="책 표지">
+  <div class="titles">
+    <h1>AI 시대에 다시 쓰는 자료 구조</h1>
+    <p>전통 자료 구조를 디딤돌 삼아 읽는 현대 AI 시스템의 자료 구조 &nbsp;·&nbsp; 리프 메타 (leaf meta) &nbsp;·&nbsp; 507쪽</p>
+  </div>
+  <nav>
+    <a class="primary" href="book.pdf" download="data-structures-ai-ko.pdf">PDF 내려받기</a>
+    <a href="https://github.com/leaf-kit/book-data-structures-ai">저장소</a>
+  </nav>
+</header>
+
+<main>
+  <iframe id="viewer" title="AI 시대에 다시 쓰는 자료 구조 본문" allow="fullscreen"></iframe>
+</main>
+
+<script>
+  // 좁은 화면에서는 목차를 접고 연다. 넓은 화면에서는 목차가 보이는 편이 찾기 좋다.
+  var src = "pdfjs/web/viewer.html?file=..%2F..%2Fbook.pdf";
+  if (window.matchMedia("(max-width: 900px)").matches) {
+    src += "#pagemode=none";
+  }
+  document.getElementById("viewer").src = src;
+</script>
+
+<footer>
+  본문 507쪽, 67개 절, 도식 112개, 실험 73개, 참고문헌 67편.
+  출처를 밝히면 복사, 재배포, 인쇄, 수업 자료로 쓸 수 있다.
+  표본 코드와 측정 출력은 <a href="https://github.com/leaf-kit/book-data-structures-ai">저장소</a>에 있다.
+  판은 <a href="https://github.com/leaf-kit/book-data-structures-ai/releases/latest">{{TAG}}</a> 이다.
+</footer>
+
+</body>
+</html>

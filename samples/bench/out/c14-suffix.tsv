@@ -1,0 +1,6 @@
+패턴	길이	개수	접미사 배열 us	순차 훑기 us
+def 	4	1589	119	2225
+return	6	2000	140	952
+self.	5	3952	127	950
+import numpy	12	0	153	823
+raise ValueError(	17	158	171	696

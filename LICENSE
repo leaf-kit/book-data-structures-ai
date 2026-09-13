@@ -1,0 +1,31 @@
+AI 시대에 다시 쓰는 자료 구조
+리프 메타 (leaf meta)
+
+책 (장별 요약과 PDF)
+  복사, 재배포, 인쇄, 수업과 사내 교육 자료 활용을 허용한다.
+  조건은 하나, 출처 표기다. 저자명과 책 제목을 함께 적는다.
+  수정해 배포할 때는 수정본임을 밝혀 원문과 혼동되지 않게 한다.
+  이 조건은 Creative Commons Attribution 4.0 (CC BY 4.0) 과 같다.
+
+표본 코드 (samples/)
+  MIT License
+
+  Copyright (c) 2026 leaf meta
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.
